@@ -1,0 +1,144 @@
+2019-11-26 20:03:46.255 IST [31278] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-11-26 20:03:46.255 IST [31278] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-11-26 20:03:46.255 IST [31278] WARNING:  could not create listen socket for "localhost"
+2019-11-26 20:03:46.255 IST [31278] FATAL:  could not create any TCP/IP sockets
+2019-11-26 20:03:46.255 IST [31278] LOG:  database system is shut down
+2019-11-26 20:04:37.766 IST [31292] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-11-26 20:04:37.766 IST [31292] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-11-26 20:04:37.766 IST [31292] WARNING:  could not create listen socket for "localhost"
+2019-11-26 20:04:37.766 IST [31292] FATAL:  could not create any TCP/IP sockets
+2019-11-26 20:04:37.766 IST [31292] LOG:  database system is shut down
+2019-11-26 20:06:52.999 IST [31343] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-11-26 20:06:52.999 IST [31343] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-11-26 20:06:52.999 IST [31343] WARNING:  could not create listen socket for "localhost"
+2019-11-26 20:06:52.999 IST [31343] FATAL:  could not create any TCP/IP sockets
+2019-11-26 20:06:52.999 IST [31343] LOG:  database system is shut down
+2019-11-26 20:07:30.363 IST [31360] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-26 20:07:30.378 IST [31360] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-26 20:07:30.420 IST [31364] LOG:  database system was shut down at 2019-11-26 20:03:02 IST
+2019-11-26 20:07:30.431 IST [31360] LOG:  database system is ready to accept connections
+2019-11-26 20:17:29.220 IST [31360] LOG:  received fast shutdown request
+2019-11-26 20:17:29.229 IST [31360] LOG:  aborting any active transactions
+2019-11-26 20:17:29.230 IST [31360] LOG:  background worker "logical replication launcher" (PID 31370) exited with exit code 1
+2019-11-26 20:17:29.230 IST [31365] LOG:  shutting down
+2019-11-26 20:17:29.276 IST [31360] LOG:  database system is shut down
+2019-11-26 23:58:54.410 IST [9917] FATAL:  lock file "postmaster.pid" already exists
+2019-11-26 23:58:54.410 IST [9917] HINT:  Is another postgres (PID 418) running in data directory "/home/jay/Desktop/CS 631/Course_project/postgres/install/data"?
+2019-11-27 00:03:54.102 IST [10031] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 00:03:54.122 IST [10031] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 00:03:54.166 IST [10034] LOG:  database system was shut down at 2019-11-27 00:03:46 IST
+2019-11-27 00:03:54.178 IST [10031] LOG:  database system is ready to accept connections
+2019-11-27 00:06:50.965 IST [10031] LOG:  received fast shutdown request
+2019-11-27 00:06:50.975 IST [10031] LOG:  aborting any active transactions
+2019-11-27 00:06:50.976 IST [10031] LOG:  background worker "logical replication launcher" (PID 10041) exited with exit code 1
+2019-11-27 00:06:50.976 IST [10036] LOG:  shutting down
+2019-11-27 00:06:51.039 IST [10031] LOG:  database system is shut down
+2019-11-27 00:07:05.422 IST [10475] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 00:07:05.437 IST [10475] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 00:07:05.476 IST [10477] LOG:  database system was shut down at 2019-11-27 00:06:51 IST
+2019-11-27 00:07:05.487 IST [10475] LOG:  database system is ready to accept connections
+2019-11-27 00:08:37.964 IST [10790] ERROR:  canceling autovacuum task
+2019-11-27 00:08:37.964 IST [10790] CONTEXT:  automatic analyze of table "stIndex.bookings.boarding_passes"
+2019-11-27 00:08:45.803 IST [10696] ERROR:  database "demo" does not exist
+2019-11-27 00:08:45.803 IST [10696] STATEMENT:  ALTER DATABASE demo SET search_path = bookings, public;
+2019-11-27 00:08:45.803 IST [10696] ERROR:  database "demo" does not exist
+2019-11-27 00:08:45.803 IST [10696] STATEMENT:  ALTER DATABASE demo SET bookings.lang = ru;
+2019-11-27 00:17:36.610 IST [11025] ERROR:  database "stindex" does not exist
+2019-11-27 00:17:36.610 IST [11025] STATEMENT:  ALTER DATABASE stIndex SET search_path = bookings, public;
+2019-11-27 00:17:45.750 IST [11025] ERROR:  unrecognized configuration parameter "tables"
+2019-11-27 00:17:45.750 IST [11025] STATEMENT:  show tables;
+2019-11-27 00:19:00.200 IST [11106] FATAL:  database "jay" does not exist
+2019-11-27 00:21:29.201 IST [11121] ERROR:  relation "ticket_flights" does not exist at character 15
+2019-11-27 00:21:29.201 IST [11121] STATEMENT:  select * from ticket_flights;
+2019-11-27 00:21:45.650 IST [11121] ERROR:  relation "bookings" does not exist at character 15
+2019-11-27 00:21:45.650 IST [11121] STATEMENT:  select * from bookings;
+2019-11-27 00:22:28.940 IST [11121] ERROR:  syntax error at or near "q" at character 1
+2019-11-27 00:22:28.940 IST [11121] STATEMENT:  q
+	q
+	q
+	;
+2019-11-27 00:24:54.909 IST [10475] LOG:  received fast shutdown request
+2019-11-27 00:24:54.919 IST [10475] LOG:  aborting any active transactions
+2019-11-27 00:24:54.919 IST [10475] LOG:  background worker "logical replication launcher" (PID 10483) exited with exit code 1
+2019-11-27 00:24:54.920 IST [10478] LOG:  shutting down
+2019-11-27 00:24:54.994 IST [10475] LOG:  database system is shut down
+2019-11-27 02:13:33.705 IST [16950] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 02:13:33.724 IST [16950] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 02:13:33.758 IST [16953] LOG:  database system was shut down at 2019-11-27 02:12:54 IST
+2019-11-27 02:13:33.770 IST [16950] LOG:  database system is ready to accept connections
+2019-11-27 02:15:22.840 IST [16950] LOG:  received fast shutdown request
+2019-11-27 02:15:22.849 IST [16950] LOG:  aborting any active transactions
+2019-11-27 02:15:22.850 IST [16950] LOG:  background worker "logical replication launcher" (PID 16959) exited with exit code 1
+2019-11-27 02:15:22.850 IST [16954] LOG:  shutting down
+2019-11-27 02:15:22.910 IST [16950] LOG:  database system is shut down
+2019-11-27 02:31:34.492 IST [18853] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 02:31:34.512 IST [18853] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 02:31:34.557 IST [18856] LOG:  database system was shut down at 2019-11-27 02:31:15 IST
+2019-11-27 02:31:34.569 IST [18853] LOG:  database system is ready to accept connections
+2019-11-27 02:42:06.985 IST [18853] LOG:  received fast shutdown request
+2019-11-27 02:42:06.995 IST [18853] LOG:  aborting any active transactions
+2019-11-27 02:42:06.996 IST [18853] LOG:  background worker "logical replication launcher" (PID 18862) exited with exit code 1
+2019-11-27 02:42:06.997 IST [18857] LOG:  shutting down
+2019-11-27 02:42:07.038 IST [18853] LOG:  database system is shut down
+2019-11-27 03:40:45.606 IST [3855] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 03:40:45.625 IST [3855] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 03:40:45.666 IST [3858] LOG:  database system was interrupted; last known up at 2019-11-27 03:07:24 IST
+2019-11-27 03:40:45.781 IST [3858] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-11-27 03:40:45.790 IST [3858] LOG:  invalid record length at 0/EA4EB48: wanted 24, got 0
+2019-11-27 03:40:45.790 IST [3858] LOG:  redo is not required
+2019-11-27 03:40:45.842 IST [3855] LOG:  database system is ready to accept connections
+2019-11-27 03:40:58.490 IST [3855] LOG:  received fast shutdown request
+2019-11-27 03:40:58.502 IST [3855] LOG:  aborting any active transactions
+2019-11-27 03:40:58.503 IST [3855] LOG:  background worker "logical replication launcher" (PID 3864) exited with exit code 1
+2019-11-27 03:40:58.503 IST [3859] LOG:  shutting down
+2019-11-27 03:40:58.563 IST [3855] LOG:  database system is shut down
+2019-11-27 03:41:14.469 IST [3893] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 03:41:14.487 IST [3893] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 03:41:14.521 IST [3894] LOG:  database system was shut down at 2019-11-27 03:40:58 IST
+2019-11-27 03:41:14.533 IST [3893] LOG:  database system is ready to accept connections
+2019-11-27 03:41:16.043 IST [3893] LOG:  received fast shutdown request
+2019-11-27 03:41:16.052 IST [3893] LOG:  aborting any active transactions
+2019-11-27 03:41:16.053 IST [3893] LOG:  background worker "logical replication launcher" (PID 3900) exited with exit code 1
+2019-11-27 03:41:16.053 IST [3895] LOG:  shutting down
+2019-11-27 03:41:16.110 IST [3893] LOG:  database system is shut down
+2019-11-27 03:41:17.461 IST [3905] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 03:41:17.478 IST [3905] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 03:41:17.513 IST [3906] LOG:  database system was shut down at 2019-11-27 03:41:16 IST
+2019-11-27 03:41:17.525 IST [3905] LOG:  database system is ready to accept connections
+2019-11-27 03:41:28.572 IST [3905] LOG:  received fast shutdown request
+2019-11-27 03:41:28.581 IST [3905] LOG:  aborting any active transactions
+2019-11-27 03:41:28.583 IST [3905] LOG:  background worker "logical replication launcher" (PID 3912) exited with exit code 1
+2019-11-27 03:41:28.583 IST [3907] LOG:  shutting down
+2019-11-27 03:41:28.647 IST [3905] LOG:  database system is shut down
+2019-11-27 05:36:55.603 IST [10435] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 05:36:55.619 IST [10435] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 05:36:55.670 IST [10436] LOG:  database system was shut down at 2019-11-27 05:36:32 IST
+2019-11-27 05:36:55.681 IST [10435] LOG:  database system is ready to accept connections
+2019-11-27 06:24:56.376 IST [15085] ERROR:  column "coordinate" is of type point but expression is of type record at character 28
+2019-11-27 06:24:56.376 IST [15085] HINT:  You will need to rewrite or cast the expression.
+2019-11-27 06:24:56.376 IST [15085] STATEMENT:  insert into testST values ((1,1),2014-03-07,2014-07-07)
+2019-11-27 06:40:38.475 IST [10612] ERROR:  syntax error at or near "3" at character 1
+2019-11-27 06:40:38.475 IST [10612] STATEMENT:  3
+	4
+	5
+	6
+	7
+	SELECT
+	    indexname,
+	    indexdef
+	FROM
+	    pg_indexes
+	WHERE
+	    tablename = 'testST';
+2019-11-27 06:41:29.645 IST [10612] ERROR:  column "testst" does not exist at character 62
+2019-11-27 06:41:29.645 IST [10612] STATEMENT:  SELECT indexname, indexdef FROM pg_indexes WHERE tablename = testST;
+2019-11-27 06:41:42.702 IST [10612] ERROR:  column "testST" does not exist at character 62
+2019-11-27 06:41:42.702 IST [10612] STATEMENT:  SELECT indexname, indexdef FROM pg_indexes WHERE tablename = "testST";
+2019-11-27 12:17:32.918 IST [3849] LOG:  listening on IPv4 address "127.0.0.1", port 9432
+2019-11-27 12:17:32.937 IST [3849] LOG:  listening on Unix socket "/tmp/.s.PGSQL.9432"
+2019-11-27 12:17:32.996 IST [3851] LOG:  database system was interrupted; last known up at 2019-11-27 06:42:00 IST
+2019-11-27 12:17:33.124 IST [3851] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-11-27 12:17:33.133 IST [3851] LOG:  redo starts at 0/EA96910
+2019-11-27 12:17:33.133 IST [3851] LOG:  invalid record length at 0/EA969F0: wanted 24, got 0
+2019-11-27 12:17:33.133 IST [3851] LOG:  redo done at 0/EA969B8
+2019-11-27 12:17:33.192 IST [3849] LOG:  database system is ready to accept connections

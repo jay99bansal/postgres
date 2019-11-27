@@ -1142,6 +1142,7 @@ exec_simple_query(const char *query_string)
 		/*
 		 * Run the portal to completion, and then drop it (and the receiver).
 		 */
+
 		(void) PortalRun(portal,
 						 FETCH_ALL,
 						 true,	/* always top level */
